@@ -12,14 +12,16 @@
 
 3. Добавляем открытый ключ через настройки на github
 
-4. Удаляем origin командой git remote remove origin, т.к. нам нужен доступ по ssh
+4. Удаляем origin командой **git remote remove origin**, т.к. нам нужен доступ по ssh
 
-5. Добавляем origin командой git remote add origin git@github.com:AntonChe32/RobotMotorsControl.git
+5. Добавляем origin командой **git remote add origin git@github.com:AntonChe32/RobotMotorsControl.git**
  
 6. Добавление, фиксация и отправка на хостинг.
 
 6.1 Создан фаил README.md.<br>
-6.2 Фаил README.md отредактирован.
-6.3 Фаил добавлен в область наблюдения коммандой git add README.md
-6.4 Фаилы зафиксированы командой git commit -m "first edit"
-6.5 
+6.2 Фаил README.md отредактирован.<br>
+6.3 Фаил добавлен в область наблюдения коммандой **git add README.md**<br>
+6.4 Фаилы зафиксированы командой **git commit -m "first edit"**<br>
+6.5 Файлы отправлены на хостинг командой **git push**<br>
+
+7. Создаем новую ветку командой **git checkout -b "feature_branch_name"**
